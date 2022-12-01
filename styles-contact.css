@@ -123,24 +123,24 @@ html, body {
 }
 
 h1 {
-	width: 40%; /*------ This is for responsiveness -------*/
+	width: 90%; /*------ This is for responsiveness -------*/
 	min-width: 300px; /* This is for respnsiveness -------*/
 	font-family: 'Belleza', sans-serif;
 	font-size: 2em;
 	letter-spacing: 2px;
-    margin: 0px auto 10px auto;
+    margin: 10px auto 10px auto;
     color: #fff;
 }
 
 h2 {
-	width: 40%; /*------ This is for responsiveness -------*/
+	width: 95%; /*------ This is for responsiveness -------*/
 	min-width: 300px; /* This is for respnsiveness -------*/
 	font-family: 'Belleza', sans-serif;
-	font-size: 1.5em;
+	font-size: 1em;
     line-height: 1.4;
     color: #fff;
     padding: 0px 0px;
-    margin: 0px auto 25px auto;
+    margin: 25px auto 25px auto;
 }
 
 nav { /*navigation tool bar specifics-----*/
@@ -181,4 +181,3 @@ a:hover{
 }
     
     
-
