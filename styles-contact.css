@@ -1,0 +1,184 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/Cherry\ Blossom\ Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background position: center;
+	
+	
+}
+
+.center {
+    width: 40%; /*------ This is for responsiveness -------*/
+	min-width: 300px; /* This is for respnsiveness -------*/
+	padding: 3%;
+    margin: 170px auto; /*spacing from top*/
+ 	background: rgb(186, 222, 240, 0.95); /*this uses opacity of 95% for the background color*/
+	text-align: center;
+	border-radius: 50px 50px 50px 50px;
+
+	/*---------This is my fade in code---------*/
+	animation: fadeIn 5s;
+	-webkit-animation: fadeIn 5s;
+	-moz-animation: fadeIn 5s;
+	-o-animation: fadeIn 5s;
+	-ms-animation: fadeIn 5s;
+	/*border: 4px dashed white;*/
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+	/*-------END of fade in code-------*/
+   
+#logo {
+	width: 50%; /*------ This is for responsiveness -------*/
+	min-width: 300px; /* This is for respnsiveness -------*/
+	padding: 2%;
+    margin-bottom: 16px;
+	text-align: center;
+}
+
+h1 {
+	width: 40%; /*------ This is for responsiveness -------*/
+	min-width: 300px; /* This is for respnsiveness -------*/
+	font-family: 'Belleza', sans-serif;
+	font-size: 2em;
+	letter-spacing: 2px;
+    margin: 0px auto 10px auto;
+    color: #fff;
+}
+
+h2 {
+	width: 40%; /*------ This is for responsiveness -------*/
+	min-width: 300px; /* This is for respnsiveness -------*/
+	font-family: 'Belleza', sans-serif;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+nav { /*navigation tool bar specifics-----*/
+	  font-family: 'Belleza', sans-serif;
+	  font-size: 1.2em;
+	  width: 400px;
+	  margin: 0 auto;
+	  border-width: 3px 0
+	  text-align: center;
+	  margin-top: 2em;
+	  position: fixed;
+	  top: 0;
+	  right: 20px;
+	  /*Below is a background so navigation bar is visible at all times*/
+	  background: rgb(186, 222, 240, 0.95); /*this uses opacity of 95% for the background color*/
+	  text-align: center;
+	  border-radius: 25px 25px 25px 25px;
+	}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px
+}
+
+a{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: rgb(255, 255, 255);
+	background: rgb(255, 189, 209, 0.8); /*this uses opacity of 80% for the hover color*/
+}
+    
+    
+
